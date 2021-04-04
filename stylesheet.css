@@ -1,0 +1,54 @@
+@meta @charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+@font-face {
+  font-family: 'co-b';
+  src: url('./corporate.ttf');
+}
+@font-face {
+  font-family: 'co-m';
+  src: url('./corporate-m.ttf')
+}
+
+#taitoru {
+  font-family: 'co-m';
+  margin: 45px;
+  padding: 30px;
+  font-size: 67px;
+  border-bottom: 3px dashed #4285F4;
+    border-radius: 30px;
+  background: rgb(230,244,234)
+}
+
+#ore {
+  font-family: 'co-b';
+}
+
+.irooni {
+  margin: 30px 60px;
+  padding: 30px;
+  display: inline-block;
+  background: rgb(232,240,254);
+  transition: 0.3s;
+  border-radius: 20px;
+}
+
+.irooni:hover {
+  background: rgb(252,232,230)
+}
+
+.sex {
+  font-size: 50px;
+  font-family: 'co-m';
+  display: inline-block;
+  color: black;
+  border-bottom: 2px solid black;
+  padding-right: 10px;
+}
+
+#tsu {
+  height: 40px;
+  width: 40px;
+}
